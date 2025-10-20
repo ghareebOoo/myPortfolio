@@ -22,10 +22,10 @@ export default function Hero() {
                     <button className="px-8 py-2 border-[1] border-black bg-black text-white rounded-full cursor-pointer transition-all duration-500 hover:bg-white hover:text-black">Contact Info</button>
                 </div>
                 <div className='flex items-center gap-4 justify-center'>
-                    <Link href={"https://www.linkedin.com/in/mohamed-ghareeb-0ab082334/"} className='w-10 h-10 rounded-full bg-black flex items-center justify-center'>
+                    <Link href={"https://www.linkedin.com/in/mohamed-ghareeb-0ab082334/"} target="blank" className='w-10 h-10 rounded-full bg-black flex items-center justify-center'>
                         <FaLinkedinIn className='text-2xl text-white'/>
                     </Link>
-                    <Link href={"https://github.com/ghareebOoo"} className='w-10 h-10 rounded-full bg-black flex items-center justify-center'>
+                    <Link href={"https://github.com/ghareebOoo"} target="blank" className='w-10 h-10 rounded-full bg-black flex items-center justify-center'>
                         <FaGithub  className='text-2xl text-white'/>
                     </Link>
                 </div>
