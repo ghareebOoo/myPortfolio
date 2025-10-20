@@ -18,7 +18,7 @@ export default function Hero() {
                     <p className='text-[28px] text-[#555555] text-center font-semibold'>Frontend Developer</p>
                 </div>
                 <div className='flex flex-col md:flex-row items-center gap-4 justify-center'>
-                    <button className="px-6 py-2 border-[1] border-black rounded-full cursor-pointer transition-all duration-500 hover:bg-black hover:text-white">Download CV</button>
+                    <Link href={"/mohamed ghareeb.pdf"}  target="blank" className="px-6 py-2 border-[1] border-black rounded-full cursor-pointer transition-all duration-500 hover:bg-black hover:text-white">Download CV</Link>
                     <button className="px-8 py-2 border-[1] border-black bg-black text-white rounded-full cursor-pointer transition-all duration-500 hover:bg-white hover:text-black">Contact Info</button>
                 </div>
                 <div className='flex items-center gap-4 justify-center'>
