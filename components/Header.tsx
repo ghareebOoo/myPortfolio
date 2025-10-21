@@ -65,7 +65,9 @@ export default function Header() {
             </div>
             <div className='hidden lg:flex items-center gap-4'>
                 {links.map((link , index)=>{
-                    return <ScrollLink smooth={true} duration={1000} className='text-[24px] cursor-pointer w-fit relative before:absolute before:w-0 before:h-[2px] before:-bottom-1 before:left-0  before:bg-black hover:before:w-full before:transition-all before:duration-500' key={index} to={link.href}>{link.label}</ScrollLink> 
+                    return <motion.div initial={{y: -100 , opacity: 0}} animate={{y: 0 , opacity: 1}} viewport={{once: true}} transition={{duration: 0.7 , ease: "linear" , delay: index * 0.2}}  key={index}>
+                        <ScrollLink smooth={true} duration={1000} className='text-[24px] cursor-pointer w-fit relative before:absolute before:w-0 before:h-[2px] before:-bottom-1 before:left-0  before:bg-black hover:before:w-full before:transition-all before:duration-500' to={link.href}>{link.label}</ScrollLink>
+                    </motion.div>  
                 })}
             </div>
 
