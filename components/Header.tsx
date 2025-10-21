@@ -76,13 +76,13 @@ export default function Header() {
             </div>
 
 
-            <div className={`${showNav ? "translate-y-0" : "-translate-y-full"} lg:hidden transition-transform duration-1000 fixed z-50 w-full h-screen flex flex-col justify-center items-center gap-4 bg-white top-0 left-0`}>
+            <div className={`${showNav ? "translate-y-0" : "-translate-y-full"} lg:hidden transition-transform duration-1000 fixed z-50 w-full h-screen flex flex-col justify-center items-center gap-4 bg-black top-0 left-0`}>
                 <div onClick={()=> setShowNav(false)} className="cursor-pointer absolute top-8 right-4">
-                    <IoCloseSharp className='text-4xl'/> 
+                    <IoCloseSharp className='text-4xl text-white'/> 
                 </div>
                 <AnimatePresence>
                     {showNav && links.map((link , index)=>{
-                        return <ScrollLink onClick={()=> setShowNav(false)} className='overflow-hidden text-[24px] cursor-pointer w-fit relative before:absolute before:w-0 before:h-[2px] before:-bottom-1 before:left-0  before:bg-black hover:before:w-full before:transition-all before:duration-500' key={index} to={link.href}>{getLetter(link.label)}</ScrollLink> 
+                        return <ScrollLink onClick={()=> setShowNav(false)} className='overflow-hidden text-[24px] text-white cursor-pointer w-fit relative before:absolute before:w-0 before:h-[2px] before:-bottom-1 before:left-0  before:bg-black hover:before:w-full before:transition-all before:duration-500' key={index} to={link.href}>{getLetter(link.label)}</ScrollLink> 
                     })}
                 </AnimatePresence>
             </div>
