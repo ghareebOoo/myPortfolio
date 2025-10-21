@@ -17,7 +17,7 @@ export default function Hero() {
             <motion.div initial={{x: 100 , opacity: 0}} whileInView={{x: 0 , opacity: 1}} viewport={{once: true}} transition={{duration: 0.7 , ease: "linear"}} className='w-full lg:max-w-[50%] flex flex-col gap-5'>
                 <div>
                     <p className='text-xl text-[#555555] text-center font-semibold'>Hello, I{`'`}m</p>
-                    <h2 className='my-1 font-bold text-[28px] md:text-[35px] text-center leading-[40px]'>Mohamed Ghareeb</h2>
+                    <h2 className='font-bold text-[28px] md:text-[35px] text-center leading-[40px] stroke' data-text="Mohamed Ghareeb">Mohamed Ghareeb</h2>
                     <p className='text-[28px] text-[#555555] text-center font-semibold'>Frontend Developer</p>
                 </div>
                 <div className='flex flex-col md:flex-row items-center gap-4 justify-center'>
