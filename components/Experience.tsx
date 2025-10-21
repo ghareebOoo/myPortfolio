@@ -64,10 +64,6 @@ export default function Experience() {
                         <PiSealCheckFill className='text-2xl'/>
                         <h3 className='text-[14px] sm:text-base md:text-xl font-semibold'>VS Code</h3>
                     </div>
-                    <div className='flex items-center gap-2'>
-                        <PiSealCheckFill className='text-2xl'/>
-                        <h3 className='text-[14px] sm:text-base md:text-xl font-semibold'>Shadcn</h3>
-                    </div>
                 </div>
             </motion.div>
             <motion.div initial={{y: -100 , opacity: 0}} whileInView={{y: 0 , opacity: 1}} viewport={{once: true}} transition={{duration: 0.7 , ease: "linear" , delay: 0.6}} className='col-sapn-1 xl:col-span-2 p-4 w-full border-[1] border-black rounded-md'>
@@ -80,6 +76,10 @@ export default function Experience() {
                     <div className='flex items-center gap-2'>
                         <PiSealCheckFill className='text-2xl'/>
                         <h3 className='text-[14px] sm:text-base md:text-xl font-semibold'>Git</h3>
+                    </div>
+                    <div className='flex items-center gap-2'>
+                        <PiSealCheckFill className='text-2xl'/>
+                        <h3 className='text-[14px] sm:text-base md:text-xl font-semibold'>Shadcn</h3>
                     </div>
                 </div>
             </motion.div>
