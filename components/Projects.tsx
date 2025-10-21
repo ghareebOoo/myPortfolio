@@ -21,10 +21,10 @@ export default function Projects() {
                     <Image src={projectOne} alt='projectOne' width={200} height={300}  className='w-full h-auto md:h-[300px] object-cover rounded-md'/>
                 </div>
                 <div className="mt-5 w-full flex items-center gap-4">
-                    <Link href={"https://github.com/ghareebOoo/009"} className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-black cursor-pointer transition-all duration-500 hover:bg-black hover:text-white'>
+                    <Link href={"https://github.com/ghareebOoo/009"} target="blank" className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-black cursor-pointer transition-all duration-500 hover:bg-black hover:text-white'>
                         Github
                     </Link>
-                    <Link href={"https://009-delta.vercel.app/"} className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-black cursor-pointer transition-all duration-500 hover:bg-black hover:text-white'>
+                    <Link href={"https://009-delta.vercel.app/"} target="blank" className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-black cursor-pointer transition-all duration-500 hover:bg-black hover:text-white'>
                         Live Demo
                     </Link>
                 </div>
@@ -34,10 +34,10 @@ export default function Projects() {
                     <Image src={projectTwo} alt='projectTwo' width={200} height={300}  className='w-full  h-auto md:h-[300px] object-cover rounded-md'/>
                 </div>
                 <div className="mt-5 w-full flex items-center gap-4">
-                    <Link href={"https://github.com/ghareebOoo/shopanza"} className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-black cursor-pointer transition-all duration-500 hover:bg-black hover:text-white'>
+                    <Link href={"https://github.com/ghareebOoo/shopanza"} target="blank" className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-black cursor-pointer transition-all duration-500 hover:bg-black hover:text-white'>
                         Github
                     </Link>
-                    <Link href={"https://shopanza-blush.vercel.app/"} className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-black cursor-pointer transition-all duration-500 hover:bg-black hover:text-white'>
+                    <Link href={"https://shopanza-blush.vercel.app/"} target="blank" className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-black cursor-pointer transition-all duration-500 hover:bg-black hover:text-white'>
                         Live Demo
                     </Link>
                 </div>
@@ -47,10 +47,10 @@ export default function Projects() {
                     <Image src={projectThree} alt='projectThree' width={200} height={300}  className='w-full h-auto md:h-[300px] object-cover rounded-md'/>
                 </div>
                 <div className="mt-5 w-full flex items-center gap-4">
-                    <Link href={"https://github.com/ghareebOoo/foodie"} className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-black cursor-pointer transition-all duration-500 hover:bg-black hover:text-white'>
+                    <Link href={"https://github.com/ghareebOoo/foodie"} target="blank" className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-black cursor-pointer transition-all duration-500 hover:bg-black hover:text-white'>
                         Github
                     </Link>
-                    <Link href={"https://foodie-five-rho.vercel.app/"} className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-black cursor-pointer transition-all duration-500 hover:bg-black hover:text-white'>
+                    <Link href={"https://foodie-five-rho.vercel.app/"} target="blank" className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-black cursor-pointer transition-all duration-500 hover:bg-black hover:text-white'>
                         Live Demo
                     </Link>
                 </div>
