@@ -7,6 +7,7 @@ import projectThree from "../public/src/image/three.png"
 import Image from 'next/image'
 import { MdOutlineKeyboardDoubleArrowDown } from "react-icons/md";
 import {Link as ScrollLink} from "react-scroll"
+import {motion} from "framer-motion"
 export default function Projects() {
   return (
     <div className='px-4 md:px-8 py-8 mt-5 relative' id='projects'>
@@ -15,7 +16,7 @@ export default function Projects() {
         </ScrollLink> 
         <h2 className='text-center font-bold text-[32px] md:text-[48px]'>Projects</h2>
         <div className='mt-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4'>
-            <div className='p-4 w-full border-[1] border-black rounded-md'>
+            <motion.div initial={{y: -100 , opacity: 0}} whileInView={{y: 0 , opacity: 1}} viewport={{once: true}} transition={{duration: 0.7 , ease: "linear" , delay: 0.2}} className='p-4 w-full border-[1] border-black rounded-md'>
                 <div>
                     <Image src={projectOne} alt='projectOne' width={200} height={300}  className='w-full h-auto md:h-[300px] object-cover rounded-md'/>
                 </div>
@@ -27,8 +28,8 @@ export default function Projects() {
                         Live Demo
                     </Link>
                 </div>
-            </div>
-            <div className='p-4 w-full border-[1] border-black rounded-md'>
+            </motion.div>
+            <motion.div initial={{y: -100 , opacity: 0}} whileInView={{y: 0 , opacity: 1}} viewport={{once: true}} transition={{duration: 0.7 , ease: "linear" , delay: 0.4}} className='p-4 w-full border-[1] border-black rounded-md'>
                 <div>
                     <Image src={projectTwo} alt='projectTwo' width={200} height={300}  className='w-full  h-auto md:h-[300px] object-cover rounded-md'/>
                 </div>
@@ -40,8 +41,8 @@ export default function Projects() {
                         Live Demo
                     </Link>
                 </div>
-            </div>
-            <div className='p-4 w-full border-[1] border-black rounded-md'>
+            </motion.div>
+            <motion.div initial={{y: -100 , opacity: 0}} whileInView={{y: 0 , opacity: 1}} viewport={{once: true}} transition={{duration: 0.7 , ease: "linear" , delay: 0.6}} className='p-4 w-full border-[1] border-black rounded-md'>
                 <div>
                     <Image src={projectThree} alt='projectThree' width={200} height={300}  className='w-full h-auto md:h-[300px] object-cover rounded-md'/>
                 </div>
@@ -53,7 +54,7 @@ export default function Projects() {
                         Live Demo
                     </Link>
                 </div>
-            </div>
+            </motion.div>
         </div>
     </div>
   )

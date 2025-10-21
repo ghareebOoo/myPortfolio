@@ -1,18 +1,20 @@
+"use client"
 import React from 'react'
 import myImage from "../public/src/image/1.png"
 import Image from 'next/image'
 import { FaLinkedinIn , FaGithub  } from "react-icons/fa";
 import Link from 'next/link';
+import {motion} from "framer-motion"
 
 export default function Hero() {
 
   return (
-    <div className='px-4 md:px-8 py-8 mt-5' >
+    <div className='px-4 md:px-8 py-8 mt-5 overflow-hidden' >
         <div className='flex flex-col lg:flex-row gap-8 justify-center items-center w-full lg:max-w-[80%] mx-auto'>
-            <div className='w-full lg:max-w-[50%] lg:flex justify-end'>
+            <motion.div initial={{x: -100 , opacity: 0}} whileInView={{x: 0 , opacity: 1}} viewport={{once: true}} transition={{duration: 0.7 , ease: "linear"}} className='w-full lg:max-w-[50%] lg:flex justify-end'>
                 <Image src={myImage} alt='myImage' width={350} height={350} className='rounded-full w-[250px] h-[250px] md:w-[350px] md:h-[350px] object-cover mx-auto lg:mx-0'/>
-            </div>
-            <div className='w-full lg:max-w-[50%] flex flex-col gap-5'>
+            </motion.div>
+            <motion.div initial={{x: 100 , opacity: 0}} whileInView={{x: 0 , opacity: 1}} viewport={{once: true}} transition={{duration: 0.7 , ease: "linear"}} className='w-full lg:max-w-[50%] flex flex-col gap-5'>
                 <div>
                     <p className='text-xl text-[#555555] text-center font-semibold'>Hello, I{`'`}m</p>
                     <h2 className='my-1 font-bold text-[28px] md:text-[35px] text-center leading-[40px]'>Mohamed Ghareeb</h2>
@@ -30,7 +32,7 @@ export default function Hero() {
                         <FaGithub  className='text-2xl text-white'/>
                     </Link>
                 </div>
-            </div>
+            </motion.div>
         </div>
     </div>
   )
