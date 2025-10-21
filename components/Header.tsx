@@ -76,7 +76,7 @@ export default function Header() {
             </div>
 
 
-            <div className={`${showNav ? "translate-y-0" : "-translate-y-full"} lg:hidden transition-transform duration-1000 fixed w-full h-screen flex flex-col justify-center items-center gap-4 bg-white top-0 left-0`}>
+            <div className={`${showNav ? "translate-y-0" : "-translate-y-full"} lg:hidden transition-transform duration-1000 fixed z-50 w-full h-screen flex flex-col justify-center items-center gap-4 bg-white top-0 left-0`}>
                 <div onClick={()=> setShowNav(false)} className="cursor-pointer absolute top-8 right-4">
                     <IoCloseSharp className='text-4xl'/> 
                 </div>
