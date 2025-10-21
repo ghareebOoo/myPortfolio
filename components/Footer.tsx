@@ -27,7 +27,7 @@ export default function Footer() {
   return (
     <div className='px-4 md:px-8 py-8 mt-5 relative'>
         <ScrollLink smooth={true} duration={500} className='cursor-pointer absolute right-0 bottom-5' to={"header"}>
-            <MdOutlineKeyboardDoubleArrowUp className='text-6xl text-black60 transition-colors duration-500 hover:text-main'/>
+            <MdOutlineKeyboardDoubleArrowUp className='text-6xl transition-colors duration-500 hover:text-main'/>
         </ScrollLink> 
         <div className='flex flex-col md:flex-row items-center justify-center gap-4'>
             {links.map((link , index)=>{

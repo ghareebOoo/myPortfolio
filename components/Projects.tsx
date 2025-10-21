@@ -12,7 +12,7 @@ export default function Projects() {
   return (
     <div className='px-4 md:px-8 py-8 mt-5 relative' id='projects'>
         <ScrollLink smooth={true} duration={500} className='cursor-pointer absolute right-0 top-10' to={"contact"}>
-            <MdOutlineKeyboardDoubleArrowDown className='text-6xl text-black60 transition-colors duration-500 hover:text-main'/>
+            <MdOutlineKeyboardDoubleArrowDown className='text-6xl transition-colors duration-500 hover:text-main'/>
         </ScrollLink> 
         <h2 className='text-center text-main font-bold text-[32px] md:text-[48px]'>Projects</h2>
         <div className='mt-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4'>
