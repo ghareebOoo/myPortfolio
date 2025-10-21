@@ -24,7 +24,7 @@ export default function Projects() {
                     <Link href={"https://github.com/ghareebOoo/009"} target="blank" className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-main cursor-pointer transition-all duration-500 hover:bg-main hover:text-second'>
                         Github
                     </Link>
-                    <Link href={"https://009-delta.vercel.app/"} target="blank" className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-main bg-main text-second cursor-pointer transition-all duration-500 hover:bg-primary hover:text-main'>
+                    <Link href={"https://009-delta.vercel.app/"} target="blank" className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-main bg-main text-second cursor-pointer transition-all duration-500 hover:bg-primary hover:text-white'>
                         Live Demo
                     </Link>
                 </div>
@@ -37,7 +37,7 @@ export default function Projects() {
                     <Link href={"https://github.com/ghareebOoo/shopanza"} target="blank" className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-main cursor-pointer transition-all duration-500 hover:bg-main hover:text-second'>
                         Github
                     </Link>
-                    <Link href={"https://shopanza-blush.vercel.app/"} target="blank" className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-main bg-main text-second cursor-pointer transition-all duration-500 hover:bg-primary hover:text-main'>
+                    <Link href={"https://shopanza-blush.vercel.app/"} target="blank" className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-main bg-main text-second cursor-pointer transition-all duration-500 hover:bg-primary hover:text-white'>
                         Live Demo
                     </Link>
                 </div>
@@ -50,7 +50,7 @@ export default function Projects() {
                     <Link href={"https://github.com/ghareebOoo/foodie"} target="blank" className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-main cursor-pointer transition-all duration-500 hover:bg-main hover:text-second'>
                         Github
                     </Link>
-                    <Link href={"https://foodie-five-rho.vercel.app/"} target="blank" className='flex items-center justify-center rounded-md w-full text-second p-2.5 border-[1] border-main bg-main cursor-pointer transition-all duration-500 hover:bg-primary hover:text-main'>
+                    <Link href={"https://foodie-five-rho.vercel.app/"} target="blank" className='flex items-center justify-center rounded-md w-full text-second p-2.5 border-[1] border-main bg-main cursor-pointer transition-all duration-500 hover:bg-primary hover:text-white'>
                         Live Demo
                     </Link>
                 </div>
