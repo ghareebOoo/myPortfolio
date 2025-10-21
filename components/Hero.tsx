@@ -5,6 +5,7 @@ import { FaLinkedinIn , FaGithub  } from "react-icons/fa";
 import Link from 'next/link';
 
 export default function Hero() {
+
   return (
     <div className='px-4 md:px-8 py-8 mt-5' >
         <div className='flex flex-col lg:flex-row gap-8 justify-center items-center w-full lg:max-w-[80%] mx-auto'>
