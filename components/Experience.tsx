@@ -1,25 +1,16 @@
 "use client"
 import React from 'react'
-import { PiSealCheckFill } from "react-icons/pi";
 import { MdOutlineKeyboardDoubleArrowDown } from "react-icons/md";
 import {Link as ScrollLink} from "react-scroll"
 import {motion} from "framer-motion"
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { FaBootstrap } from "react-icons/fa";
 import { DiJqueryLogo } from "react-icons/di";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { FaReact } from "react-icons/fa";
-import { FaSass } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
-import { RiNextjsFill } from "react-icons/ri";
+import { RiNextjsFill , RiTailwindCssFill } from "react-icons/ri";
 import { VscCode } from "react-icons/vsc";
-import { FaGithub } from "react-icons/fa";
-import { FaGitSquare } from "react-icons/fa";
-import { SiShadcnui } from "react-icons/si";
-import { FaFigma } from "react-icons/fa";
-import { SiPostman } from "react-icons/si";
+import { FaGitSquare , FaFigma , FaGithub , FaSass , FaReact , FaHtml5 , FaCss3Alt , FaBootstrap} from "react-icons/fa";
+import { SiShadcnui , SiPostman , SiTypescript } from "react-icons/si";
+
+
 
 
 export default function Experience() {
