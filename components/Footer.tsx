@@ -36,7 +36,7 @@ export default function Footer() {
                 </motion.div>  
             })}
         </div>
-        <div className='mt-5 text-center text-base'>Copyright © 2025 Mohamed Ghareeb. All Rights Reserved.</div>
+        <motion.div initial={{y: -100 , opacity: 0}} whileInView={{y: 0 , opacity: 1}} viewport={{once: true}} transition={{duration: 0.7 , ease: "linear"}} className='mt-5 text-center text-base'>Copyright © 2025 Mohamed Ghareeb. All Rights Reserved.</motion.div>
     </div>
   )
 }
