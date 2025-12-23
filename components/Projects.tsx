@@ -12,6 +12,7 @@ import projectOne from "../public/src/image/one.jpg"
 import projectTwo from "../public/src/image/two.png"
 import projectThree from "../public/src/image/three.png"
 import projectFour from "../public/src/image/four.jpg"
+import projectFive from "../public/src/image/five.jpg"
 import Image from 'next/image'
 import { MdOutlineKeyboardDoubleArrowDown } from "react-icons/md";
 import {Link as ScrollLink} from "react-scroll"
@@ -78,13 +79,28 @@ export default function Projects() {
             <SwiperSlide>
                 <div className='p-4 w-full border-[1] border-main rounded-md'>
                     <div>
-                        <Image src={projectFour} alt='projectThree' width={200} height={300}  className='w-full h-[300px] object-cover rounded-md'/>
+                        <Image src={projectFour} alt='projectFour' width={200} height={300}  className='w-full h-[300px] object-cover rounded-md'/>
                     </div>
                     <div className="mt-5 w-full flex items-center gap-4">
                         <Link href={"https://github.com/ghareebOoo/tattoo"} target="blank" className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-main cursor-pointer transition-all duration-500 hover:bg-main hover:text-second'>
                             Github
                         </Link>
                         <Link href={"https://tattoo-plum-psi.vercel.app/"} target="blank" className='flex items-center justify-center rounded-md w-full text-second p-2.5 border-[1] border-main bg-main cursor-pointer transition-all duration-500 hover:bg-primary hover:text-white'>
+                            Live Demo
+                        </Link>
+                    </div>
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+                <div className='p-4 w-full border-[1] border-main rounded-md'>
+                    <div>
+                        <Image src={projectFive} alt='projectFive' width={200} height={300}  className='w-full h-[300px] object-cover rounded-md'/>
+                    </div>
+                    <div className="mt-5 w-full flex items-center gap-4">
+                        <Link href={"https://github.com/ghareebOoo/olivion"} target="blank" className='flex items-center justify-center rounded-md w-full p-2.5 border-[1] border-main cursor-pointer transition-all duration-500 hover:bg-main hover:text-second'>
+                            Github
+                        </Link>
+                        <Link href={"https://olivion-kappa.vercel.app/"} target="blank" className='flex items-center justify-center rounded-md w-full text-second p-2.5 border-[1] border-main bg-main cursor-pointer transition-all duration-500 hover:bg-primary hover:text-white'>
                             Live Demo
                         </Link>
                     </div>
